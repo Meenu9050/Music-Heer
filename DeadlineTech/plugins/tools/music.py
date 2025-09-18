@@ -147,7 +147,7 @@ async def send_audio(client: Client, message: Message, video_id: str):
         caption=f"📻 <b><a href=\"{url}\">{title}</a></b>\n🕒 <b>Duration:</b> {duration_str}\n🔧 <b>Powered by:</b> <a href=\"https://t.me/DeadlineTechTeam\">DeadlineTech</a>",
         thumb=thumb_path if thumb_path else None,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("🎧 More Music", url="https://t.me/DeadlineTechMusic")],
-            [InlineKeyboardButton("💻 Source", url="https://github.com/DeadlineTech/music")]
+            [InlineKeyboardButton("🎧 More Music", url="https://t.me/dark_x_knight_musiczz_support/112")],
+            [InlineKeyboardButton("💻 Source", url="https://t.me/dark_x_knight_musiczz_support/112")]
         ])
     )
