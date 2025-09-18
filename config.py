@@ -18,12 +18,12 @@ API_BASE_URL = getenv("API_BASE_URL", "")
 #API_KEY = getenv("API_KEY")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Zunnu:zunnumusicbot@zunnu.tlsdrgr.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002673174815"))
 
 # Get this value from @Harry_RoxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 1129848570))
